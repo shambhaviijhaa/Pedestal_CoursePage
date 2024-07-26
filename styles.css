@@ -14,6 +14,11 @@ body {
     --footer-text-color: grey;
     --link-hover-color: #333;
 }
+h1{
+    color: var(--primary-color);
+    margin-left: 5%;
+    padding: 0px;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -86,16 +91,16 @@ body {
 
 .container1 {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 20px;
-    margin: 5% auto 0; /* Added margin-top: 5% */
-    width: 90%;
+    margin: 20px; /* Added margin-top: 5% */
+    width: 75%;
 }
 
 .course-card {
     display: flex;
     background-color: #fff;
-    
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
