@@ -102,19 +102,6 @@ h2 {
     gap: 10px;
 }
 
-
-.price {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.2em;
-    font-weight: bold;
-}
-
-.old-price {
-    text-decoration: line-through;
-    color: #999;
-} 
 #price-range {
     width: 100%;
 }
